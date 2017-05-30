@@ -17,7 +17,7 @@
     "build": "babel-node tools/build.js",
     "postbuild": "babel-node tools/distServer.js"
   },
-  "author": "Cory House",
+  "author": "Chris Blakely",
   "license": "MIT",
   "dependencies": {
     "auth0-js": "^8.7.0",
@@ -78,9 +78,5 @@
     "webpack": "1.13.0",
     "webpack-dev-middleware": "1.6.1",
     "webpack-hot-middleware": "2.10.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/coryhouse/pluralsight-redux-starter"
   }
 }
